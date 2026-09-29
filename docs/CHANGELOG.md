@@ -34,6 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - [修复] 阻止任意更新的非 bundled 指数候选（含 legacy `static` 子集）在 remote 缺失/损坏时以 active-index 子集覆盖 bundled baseline：所有非 bundled 候选必须为 bundled active-index canonical 集合的合法超集，否则回退 bundled 并记录 WARNING。
 - [新功能] 桌面端全局右上角增加更新入口，与设置页共用更新状态；普通浏览器 WebUI 不展示，且不会在挂载时重复触发后台检查。
 - [修复] 桌面端右上角更新入口与设置页共用检查中状态，避免一侧检查时另一侧仍可重复触发 GitHub Releases 检查；主进程手动检查路径同步增加 in-flight 防重。
+- [文档] 新增托管 SaaS MVP 产品功能设计：邀请制免费内测范围、合规定性、多租户与配额边界，以及不含对公收款的增量 PR 计划。
+- [文档] SaaS MVP 锁定产品决策：首发仅 A 股、内测不收款且不接入支付、不含 Chat。
 
 ## [3.31.0] - 2026-08-23
 

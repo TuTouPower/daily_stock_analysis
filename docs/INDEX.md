@@ -15,6 +15,7 @@
 | 排查运行问题 | [FAQ](FAQ.md) | [更新日志](CHANGELOG.md) |
 | 处理数据源失败或降级 | [数据源稳定性与故障处理图示](data-source-stability.md) | [FAQ](FAQ.md) |
 | 参与开发或提交 PR | [贡献指南](CONTRIBUTING.md) | [API 规格](architecture/api_spec.json) |
+| 了解托管 SaaS / 注册即用方向 | [SaaS MVP 产品功能设计](saas_mvp_design.md) | [贡献指南](CONTRIBUTING.md) |
 
 ## 快速开始
 
@@ -66,6 +67,7 @@
 | 文档 | 内容 |
 | --- | --- |
 | [API 规格](architecture/api_spec.json) | FastAPI OpenAPI 规格产物 |
+| [SaaS MVP 产品功能设计](saas_mvp_design.md) | 托管化产品范围、合规定性、多租户与配额边界；当前可开工范围为邀请制免费内测、仅 A 股、不接入支付、不含 Chat |
 | [贡献指南](CONTRIBUTING.md) | Issue、PR、测试、文档同步和协作要求 |
 
 ## 多语言
